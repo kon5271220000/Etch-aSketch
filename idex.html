@@ -26,6 +26,10 @@
             btn.className = "square";
             collum.appendChild(btn);
             row.appendChild(collum);
+
+            btn.addEventListener("mouseover", event => {
+                btn.style.backgroundColor = "black";
+            })
         }
         div.appendChild(row)
        }
