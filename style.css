@@ -1,0 +1,38 @@
+body {
+    font-family: 'Open Sans' sans-serif;
+    color: #141414;
+    text-align: center;
+    padding: 1rem;
+}
+
+header {
+    padding: 1rem 2rem 4rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+.row {
+    display: flex;
+}
+
+.collum {
+    background-color: lightgray;
+    flex: 1;
+    align-items: center;
+    
+}
+
+.square {
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+
+.collum :hover {
+    background-color: black;
+}
