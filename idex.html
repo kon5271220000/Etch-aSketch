@@ -5,37 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Etch-a-Sletch</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <button id="getnum">Number of Squares</button>
+    </div>
     <div class="container">
     </div>
-    <script>
-        const div = document.querySelector(".container");
-        
-
-       for(i = 0; i < 16; i++){
-       
-        const row = document.createElement("div");
-        row.className = "row";
-        
-        
-        for(j = 0; j < 16; j++){
-            const collum = document.createElement("div");
-            const btn = document.createElement("button");
-            collum.className= "collum";
-            btn.className = "square";
-            collum.appendChild(btn);
-            row.appendChild(collum);
-
-            btn.addEventListener("mouseover", event => {
-                btn.style.backgroundColor = "black";
-            })
-        }
-        div.appendChild(row)
-       }
-
-        
-        
-    </script>
+    
 </body>
 </html>

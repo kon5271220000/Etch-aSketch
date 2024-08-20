@@ -10,10 +10,14 @@ header {
 }
 
 .container {
-    max-width: 800px;
+    width: 960px;
+    height: 960px;
     margin: 0 auto;
 }
 
+#getnum {
+    margin:  20px;
+}
 
 
 .row {
@@ -28,11 +32,8 @@ header {
 }
 
 .square {
-    color: white;
-    height: 50px;
-    width: 50px;
-}
-
-/*.collum :hover {
-    background-color: black;
+    padding: 0px; 
+    margin: 0px; 
+    height: 100%;
+    border: 1px;
 }
